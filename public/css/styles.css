@@ -27,6 +27,14 @@
 	height: 60px;
 	background-color: #1abc9c;
 }
+.icons
+{
+    margin-top:30px;
+}
+.icon
+{
+    margin-left:10px;
+}
 
 .footer p {
 	margin-top: 25px;
