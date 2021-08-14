@@ -17,11 +17,9 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const URL = process.env.MONGO_URL;
-
 
 //connecting mongoose with database mongodb
-mongoose.connect(URL, {useNewUrlParser: true,  useUnifiedTopology: true , useFindAndModify: false });
+mongoose.connect("mongodb+srv://admin-neha:nehamongodbatlas@journal-cluster.d8nq1.mongodb.net/blogDB", {useNewUrlParser: true,  useUnifiedTopology: true , useFindAndModify: false });
 let posts = [];
 const blogSchema ={
    title:String,
