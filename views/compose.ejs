@@ -1,7 +1,10 @@
 <%- include('header'); -%>
-<h1>Compose</h1>
+   <h1 style="font-family: 'Dancing Script', cursive;color:#C70A80;">Compose</h1>
+
 <form method="POST">
     <div class="form-group">
+        <br>
+       
         <label >Title</label>
         <input type="text" class="form-control" name="composeText" value="<%= txt%>" ><br>
         <label >Post</label>
@@ -10,5 +13,6 @@
     </div>
   
 </form>
+<h3 style="color:green;text-align:center;font-family:arvo;"><%=mssg%></h3>
 
 <%- include('footer'); -%>

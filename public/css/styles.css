@@ -2,14 +2,34 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.navbar-brand
+{
+    font-size: 25px;
+
+   
+}
+.white-section
+{
+    background-color: white;
+}
+
 .navbar {
+    
+    position:static;
+    
+    width:100%;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 5px;
+    background : #E5EFC1;
+    font-family: 'Eczar', serif;
+    text-decoration: bold;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -20,12 +40,15 @@
 }
 
 .footer {
-	position: absolute;
-	text-align: center;
+    position:fixed;
+    text-align: center;
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+    background-color:#F473B9;
+    box-shadow: 0 -5px 6px rgba(0,0,0,0.5);
+     
+    
 }
 .icons
 {
@@ -34,6 +57,7 @@
 .icon
 {
     margin-left:10px;
+    color:orange;
 }
 
 .footer p {
@@ -53,3 +77,46 @@
 {
    margin-left:31px;
 }
+
+ #features
+{
+    padding:3% 10%;
+    position: relative;
+        
+}
+#emoji
+{
+    margin-bottom:1%;
+    color:#ef8172;
+}
+
+#emoji:hover
+{
+    color:#ff4c68;
+}
+.row
+{
+    padding-top:30px;
+}
+.feature-box
+{
+   margin:50px 0 50px 0;
+   padding:5%;
+}
+.col-sm-12 , .col-md-12
+{
+    width:33.33%;
+}
+.form-center {
+    display:flex;
+    justify-content: center;
+    margin:10%;
+  }
+ td{
+    padding:10px;
+    text-align: center;
+ }
+ th{
+     font-size: 20px;
+     text-align: center;
+ }
